@@ -2,13 +2,11 @@ import Navabar from "../components/navabar"
 
 function Home() {
   return (
-    <div>
-      <div>
+    <div className="bg-neutral-900 w-screen h-screen ">
+      <div className="">
         <Navabar/>
       </div>
-      <div>
-        
-      </div>
+
     </div>
   )
 }
