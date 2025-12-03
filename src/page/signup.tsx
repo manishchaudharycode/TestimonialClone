@@ -1,12 +1,17 @@
-import { LoginFrom } from "../components/signup"
-
+import Navabar from "../components/navabar";
+import { SigUpFrom } from "../components/signup";
 
 function SignIn() {
   return (
-   <div>
-    <LoginFrom/>
-   </div>
-  )
+    <div className="bg-neutral-900 w-screen h-screen">
+      <div>
+        <Navabar/>
+      </div>
+      <div>
+        <SigUpFrom />
+      </div>
+    </div>
+  );
 }
 
-export default SignIn
+export default SignIn;
