@@ -219,6 +219,21 @@ function HomeDashboard() {
           </div>
         </div>
       </div>
+      <section className=" pt-15">
+         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative">
+            <div className="py-12 dark:border-t dark:border-gray-800 ">
+                <div className="max-w-3xl mx-auto text-center pb-6"> 
+                    <h1 className="h1 mb-4 aos-animate text-5xl font-bold text-gray-300">Add testimonials to your website with no coding</h1>
+                    <p className="max-w-4xl max-auto text-xl text-gray-600 dark:text-gray-400 mb-8 aosinit- aos-animate">Copy and paste our HTML code to add the wall of love(<a className="underline" href="/wall-of-love"> 👉full version</a>)
+                    <h5> to your wevsite. we support any no-code platform (webflow, WordPress, you nameit! ) </h5>
+                    </p>
+                </div>
+            </div>
+            <iframe title="iframe" loading="lazy" src="https://embed-v2.testimonial.to/w/testimonial?theme=dark&amp;card=base&amp;subtitle=en&amp;hideDate=on&amp;showHeartAnim" style={{"width": "1px", "min-width":"100%", "overflow": "hidden", "height": "1719px"} as React.CSSProperties} id="iFrameResizer3" scrolling="no"></iframe>
+         </div>
+      </section>
+      <section className=""></section>
+      <div></div>
     </div>
   );
 }
