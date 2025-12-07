@@ -41,7 +41,7 @@ function HomeDashboard() {
               href="/pricing"
             >
               {" "}
-              See our pricing -
+              See our pricing →
             </a>
           </p>
         </div>
@@ -223,8 +223,8 @@ function HomeDashboard() {
       </div>
       <section className="bg-neutral-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative">
-          <div className="py-12 dark:border-t dark:border-gray-800 ">
-            <div className="max-w-3xl mx-auto text-center pb-6">
+          <div className="py-12 dark:border-t dark:border-gray-800 mt-20 ">
+            <div className="max-w-3xl mx-auto text-center pb-6 mt-10">
               <h1 className="h1 mb-4 aos-animate text-5xl font-bold text-gray-300">
                 Add testimonials to your website with no coding
               </h1>
@@ -728,7 +728,7 @@ function HomeDashboard() {
                         scrolling="no"
                         frameBorder={"0"}
                         allowFullScreen
-                        style={{"max-width":"100%"} as React.CSSProperties}
+                        style={{ "max-width": "100%" } as React.CSSProperties}
                       ></iframe>
                     </div>
                   </div>
@@ -738,8 +738,606 @@ function HomeDashboard() {
           </div>
         </div>
       </section>
-
-      <div></div>
+      <section className="py-12 bg-neutral-900 sm:py-16 lg:py-20">
+        <div className="px-4 max-auto sm:px-6 lg:px-8 max-w-6xl text-center ml-35">
+          <div className="text-center">
+            <h1 className="h1 text-gray-200 text-7xl font-bold">
+              Integrate with any platform
+            </h1>
+            <p className="mt-4 max-w-4xl mx-auto text-xl text-gray-400">
+              We built the ultimate tool for showcasing your satisfied
+              customers. With 3-lines of HTML code, you can embed all your
+              testimonials to any platform!
+            </p>
+          </div>
+          <div className="grid grid-cols-2 gap-4 mt-12 sm:gap-6 lg:mt-16 lg:grid-clos-4">
+            <div className="overflow-hidden  border border-gray-800 rounded-xl">
+              <div className="flex items-center justify-center px-8 py-4 bg-white">
+                <img
+                  className="object-contain h-8 max-w-full sm:h-10 w-44 bg-white"
+                  src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Fintegrations%2Fwebflow.png?alt=media&amp;token=c9e4e238-3200-49a4-9147-c97dd8db1108"
+                  alt="Webflow"
+                />
+              </div>
+            </div>
+            <div className="overflow-hidden  border border-gray-800 rounded-xl">
+              <div className="flex items-center justify-center px-8 py-4 bg-white">
+                <img
+                  className="object-contain h-8 max-w-full sm:h-10 w-44 bg-white"
+                  src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Fintegrations%2Fshopify-logo.png?alt=media&amp;token=fee7c8d9-a41e-433e-b37b-8704417d1827"
+                  alt="Shopify"
+                />
+              </div>
+            </div>
+            <div className="overflow-hidden  border border-gray-800 rounded-xl">
+              <div className="flex items-center justify-center px-8 py-4 bg-white">
+                <img
+                  className="object-contain h-8 max-w-full sm:h-10 w-44 bg-white"
+                  src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Fintegrations%2Fcarrd-logo.png?alt=media&amp;token=8bbafb5e-e33e-4dab-9fea-6e5f5eb37cf9"
+                  alt="Carrd"
+                />
+              </div>
+            </div>
+            <div className="overflow-hidden  border border-gray-800 rounded-xl">
+              <div className="flex items-center justify-center px-8 py-4 bg-white">
+                <img
+                  className="object-cover h-8 max-w-full sm:h-10 w-56 bg-white"
+                  src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Fintegrations%2Fwordpress-logo.png?alt=media&amp;token=badfe040-7a96-40af-948b-a16c2586a8ec"
+                  alt="WordPress"
+                />
+              </div>
+            </div>
+            <div className="overflow-hidden  border border-gray-800 rounded-xl">
+              <div className="flex items-center justify-center px-8 py-4 bg-white">
+                <img
+                  className="object-contain h-8 max-w-full sm:h-10 w-44 bg-white"
+                  src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Fintegrations%2Fkajabi-logo.svg?alt=media&amp;token=1bf05142-b84d-4513-9653-03c61b79fd24"
+                  alt="Besides"
+                />
+              </div>
+            </div>
+            <div className="overflow-hidden  border border-gray-800 rounded-xl">
+              <div className="flex items-center justify-center px-8 py-4 bg-white">
+                <img
+                  className="object-contain h-8 max-w-full sm:h-10 w-44 bg-white"
+                  src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Fintegrations%2Fbubble-logo.svg?alt=media&amp;token=2985b54a-d6cf-4d24-a219-95c48996fa34"
+                  alt="Bubble"
+                />
+              </div>
+            </div>
+            <div className="overflow-hidden  border border-gray-800 rounded-xl">
+              <div className="flex items-center justify-center px-8 py-4 bg-white">
+                <img
+                  className="object-contain h-8 max-w-full sm:h-10 w-44 bg-white"
+                  src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Fintegrations%2Fframer-logo.png?alt=media&amp;token=30f72e56-ca63-40a3-8ce3-7c9ecd09fd15"
+                  alt="Framer"
+                />
+              </div>
+            </div>
+            <div className="overflow-hidden  border border-gray-800 rounded-xl">
+              <div className="flex items-center justify-center px-8 py-4 bg-white">
+                <img
+                  className="object-cover h-8 max-w-full sm:h-10 w-44 bg-white"
+                  src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Fintegrations%2Fsquarespace-logo-horizontal-black.jpeg?alt=media&amp;token=e4227cfe-c88b-4aa1-bbc5-444a10410789"
+                  alt="squarespace"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center mt-8 sm:mt-12 lg:mt-16">
+            <div className="inline-flex flex-col items-center">
+              <a
+                href="/integrations"
+                title=""
+                className="text-base font-semibold underline text-gray-400"
+              >
+                {" "}
+                ✨ See all 100+ integrations{" "}
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 lg:py-20 relative">
+        <iframe
+          title="iframe"
+          loading="lazy"
+          src="https://embed-v2.testimonial.to/t/-MbuurqPyIox3w-jarI4?design=left-aligned-bold&amp;darkFont=yes&amp;bgColor=FFFBEB&amp;borderColor=ABB8C3&amp;starColor=5d5dff&amp;shadowSize=shadow-none&amp;showBorder=no&amp;borderRadius=rounded-2xl&amp;borderWidth=border&amp;showLogo=yes"
+          id="iFrameResizer2"
+          style={
+            {
+              width: "1px",
+              "min-width": "100%",
+              overflow: "hidden",
+              height: "498px",
+            } as React.CSSProperties
+          }
+          scrolling="no"
+        ></iframe>
+      </div>
+      <section className="bg-neutral-800">
+        <div className="mx-w-6xl mx-auto px-4 sm:px-6">
+          <div className="pt-20">
+            <div className="max-w-3xl max-auto text-center pb-12 ml-70 md:pb-16">
+              <h1 className="h2 mb-4 text-4xl font-bold text-gray-200">
+                Ready to collect textimonails?
+              </h1>
+              <p className="text-xl text-gray-400  mb-8">
+                We are loved by Fortune 500 companies, early-stage startups,
+                marketing agencies, real estate agents, freelancers, and many
+                more. Your customers' testimonials are the best social proof you
+                can get! Get started now 👇
+              </p>
+              <ul
+                role="list"
+                className=" my-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5"
+              >
+                <li className="flex justify-center  lg:justify-end lg:col-span-1">
+                  <div className="flex-shrink-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      aria-hidden="true"
+                      className="h-5 w-5 text-green-500"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p className="ml-3 text-sm text-gray-200">
+                    No coding skill required.
+                  </p>
+                </li>
+                <li className="flex justify-center lg:justify-start lg:col-span-1">
+                  <div className="flex-shrink-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      aria-hidden="true"
+                      className="h-5 w-5 text-green-500"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p className="ml-3 text-sm text-gray-200">
+                    Start in under 2 minutes. \
+                  </p>
+                </li>
+              </ul>
+              <div>
+                <div>
+                  <div className="sm:flex sm:gap-4 ml-40">
+                    <a
+                      className="btn text-white bg-purple-600 hover:bg-purple-700 rounded-md transform hover:scale-105 px-4 py-5"
+                      href="/pricing"
+                    >
+                      Get started with FREE credits
+                    </a>
+                    <button className="btn px-4 py-5   text-gray-800 dark:text-gray-100 border-2 border-purple-600 transform hover:scale-105 w-full mb-4 sm:w-auto flex sm:mb-0 rounded-md">
+                      Talk to us{" "}
+                      <div className="flex -space-x-1 ml-2">
+                        <img
+                          className="inline-block h-6 w-6 rounded-full ring-2 ring-white dark:ring-gray-800"
+                          src="https://static.intercomassets.com/avatars/4996770/square_128/damonchen-1682480142.png"
+                          alt="Damon"
+                        />
+                        <img
+                          className="inline-block h-6 w-6 rounded-full ring-2 ring-white dark:ring-gray-800"
+                          src="https://static.intercomassets.com/avatars/6509827/square_128/341944231_244267294764026_7612519450811596779_n-1682481732.jpg"
+                          alt="Rachel"
+                        />
+                        <img
+                          className="inline-block h-6 w-6 rounded-full ring-2 ring-white dark:ring-black"
+                          src="https://static.intercomassets.com/assets/default-avatars/fin/128-c20968b22ed168a498a4bf28ebadc7e883bd4b8c2dba719cb4c661a2c15147f5.png"
+                          alt="END"
+                        />
+                        <img
+                          className="inline-block h-6 w-6 rounded-full ring-2 ring-white dark:ring-black"
+                          src="https://static.intercomassets.com/avatars/7208079/square_128/photo-1710430300.jpg"
+                          alt="Daniel"
+                        />
+                      </div>
+                    </button>
+                  </div>
+                  <a
+                    href="/pricing"
+                    className="font-semibold text-white mt-5 underline decoration-2 underline-offset-4 decoration-gray-500 "
+                  >
+                    See our pricing →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div className="ml-20 py-12 md:py-16">
+          <div className="max-w-7xl max-auto px-4 sm:px-6">
+            <div className="grid md:grid-cols-12 gap-8 lg:gap-20">
+              <div className="md:col-span-3 lg:col-span-4">
+                <div className="mb-2">
+                  <a className="inline-block" href="/" aria-label="Cruip">
+                    <img
+                      loading="lazy"
+                      className="h-10 fill-current text-purple-600"
+                      src="https://testimonial.to/static/media/logo.5ff3c18e.svg"
+                      alt="Logo"
+                    />
+                  </a>
+                </div>
+                <div className="text-gray-400">
+                  The easiest solution to getting text and video testimonials
+                  from your customers
+                </div>
+              </div>
+              <div className="md:col-span-6 lg:col-span-8 grid grid-cols-2 sm:grid-cols-4 gap-8">
+                <div className="text-sm">
+                  <h6 className="text-gray-200 font-semibold uppercase mb-1">
+                    products
+                  </h6>
+                  <ul>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/wall-of-love"
+                      >
+                        Our Wall of Love
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/widgets"
+                      >
+                        Embed widgets
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/apps/chrome-extension"
+                      >
+                        Chrome extension
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/apps/slack"
+                      >
+                        Slack app
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/apps/hopin"
+                      >
+                        Hopin app
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/pricing"
+                      >
+                        Pricing
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/features"
+                      >
+                        Features
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="/resources/testimonial-integrates-with-ai"
+                        target="_blank"
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                      >
+                        AI features
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/integrations"
+                      >
+                        Integrations
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://www.youtube.com/watch?v=a-qT9pbOHkg"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        Product demo
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://status.testimonial.to"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        Status page
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="text-sm">
+                  <h6 className="text-gray-200 font-semibold uppercase mb-1">
+                    resources
+                  </h6>
+                  <ul>
+                    <li className="mb-1">
+                      <a
+                        href="https://help.testimonial.to"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        Help center
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://help.testimonial.to"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        Our blog
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://help.testimonial.to"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        Tutorials
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://help.testimonial.to"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        Customer stories
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://help.testimonial.to"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        Youtube channel
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://help.testimonial.to"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        Join affiliate
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://help.testimonial.to"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        program
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://help.testimonial.to"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        Privacy policy
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://help.testimonial.to"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        Terms of Service
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://help.testimonial.to"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        Cookie policy
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://help.testimonial.to"
+                        target="_blank"
+                        className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                      >
+                        Contact us
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="text-sm">
+                  <h6 className="text-gray-200 font-semibold uppercase mb-1">
+                    customers
+                  </h6>
+                  <ul>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/agency"
+                      >
+                        Agencies
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="/customers#b2b-companies"
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                      >
+                        B2B companies
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="/customers/course-creator"
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                      >
+                        Course creators
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="/customers#ecommerce-retail"
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                      >
+                        ecommerce
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="/customers#consumer-apps"
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                      >
+                        Consumer apps
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="text-sm">
+                  <h6 className="text-gray-200 font-semibold uppercase mb-1">
+                    free tools
+                  </h6>
+                  <ul>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/tools/case-study-generator"
+                      >
+                        Case study generator
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/tools/testimonial-questions-generator"
+                      >
+                        Testimonial questions generator
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/tools/google"
+                      >
+                        Google Business reviews
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/tools/yelp"
+                      >
+                        Yelp reviews
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://testimonial.new"
+                        target="_blank"
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                      >
+                        Testimonial.new
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://reviewtoimage.com"
+                        target="_blank"
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                      >
+                        ReviewToImage.com
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://seeyafuture.me/"
+                        target="_blank"
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                      >
+                        SeeyaFuture.me
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="http://streetinterview.ai/"
+                        target="_blank"
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                      >
+                        Street Interview AI
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://typo.domains/"
+                        target="_blank"
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                      >
+                        Typo.domains
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        href="https://ismydriverlicensearealid.com"
+                        target="_blank"
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                      >
+                        Real ID checker
+                      </a>
+                    </li>
+                    <li className="mb-1">
+                      <a
+                        className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                        href="/tools"
+                      >
+                        Other free tools
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
