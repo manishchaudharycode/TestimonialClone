@@ -118,8 +118,10 @@ function HomeDashboard() {
           Trusted Customers
         </p>
         <div className="overflow-hidden pause-on-hover whitespace-nowrap w-full py-6 ">
-          <div className="flex items-center gap-12 animate-scroll .hover-pause:hover .animate-scroll {
-             animation-play-state: paused} ">
+          <div
+            className="flex items-center gap-12 animate-scroll .hover-pause:hover .animate-scroll {
+             animation-play-state: paused} "
+          >
             <img
               className="h-4 grayscale hover:grayscale-0 transition-all"
               src="data:image/png;base64,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"
@@ -219,20 +221,524 @@ function HomeDashboard() {
           </div>
         </div>
       </div>
-      <section className=" pt-15">
-         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative">
-            <div className="py-12 dark:border-t dark:border-gray-800 ">
-                <div className="max-w-3xl mx-auto text-center pb-6"> 
-                    <h1 className="h1 mb-4 aos-animate text-5xl font-bold text-gray-300">Add testimonials to your website with no coding</h1>
-                    <p className="max-w-4xl max-auto text-xl text-gray-600 dark:text-gray-400 mb-8 aosinit- aos-animate">Copy and paste our HTML code to add the wall of love(<a className="underline" href="/wall-of-love"> 👉full version</a>)
-                    <h5> to your wevsite. we support any no-code platform (webflow, WordPress, you nameit! ) </h5>
-                    </p>
-                </div>
+      <section className="bg-neutral-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 relative">
+          <div className="py-12 dark:border-t dark:border-gray-800 ">
+            <div className="max-w-3xl mx-auto text-center pb-6">
+              <h1 className="h1 mb-4 aos-animate text-5xl font-bold text-gray-300">
+                Add testimonials to your website with no coding
+              </h1>
+              <p className="max-w-4xl max-auto text-xl text-gray-600 dark:text-gray-400 mb-8 aosinit- aos-animate">
+                Copy and paste our HTML code to add the wall of love(
+                <a className="underline" href="/wall-of-love">
+                  {" "}
+                  👉full version
+                </a>
+                )
+                <h5>
+                  {" "}
+                  to your wevsite. we support any no-code platform (webflow,
+                  WordPress, you nameit! ){" "}
+                </h5>
+              </p>
             </div>
-            <iframe title="iframe" loading="lazy" src="https://embed-v2.testimonial.to/w/testimonial?theme=dark&amp;card=base&amp;subtitle=en&amp;hideDate=on&amp;showHeartAnim" style={{"width": "1px", "min-width":"100%", "overflow": "hidden", "height": "1719px"} as React.CSSProperties} id="iFrameResizer3" scrolling="no"></iframe>
-         </div>
+          </div>
+          <iframe
+            title="iframe"
+            loading="lazy"
+            src="https://embed-v2.testimonial.to/w/testimonial?theme=dark&amp;card=base&amp;subtitle=en&amp;hideDate=on&amp;showHeartAnim"
+            style={
+              {
+                width: "1px",
+                "min-width": "100%",
+                overflow: "hidden",
+                height: "1719px",
+              } as React.CSSProperties
+            }
+            id="iFrameResizer3"
+            scrolling="no"
+          ></iframe>
+        </div>
       </section>
-      <section className=""></section>
+      <section className="bg-neutral-900">
+        <div className="w-full md:max-w-3xl mx-auto px-4  sm:px-4">
+          <div className="pb-12 md:pb-20m">
+            <div
+              className="overflow-hidden shadow rounded-lg "
+              style={
+                { "background-color": "rgb(31, 45, 61)" } as React.CSSProperties
+              }
+            >
+              <div className="px-4 py-5 sm:px-4">
+                <h3 className="text-xl leading-6 font-medium text-white">
+                  Try our sample embed
+                </h3>
+                <div className="mt-2 max-w-xl text-sm text-gray-100">
+                  <p>Embed the wall of love to your website in 1 minute </p>
+                </div>
+                <div className="my-5 rounded-lg bg-gray-900 border border-gray-700 text-base">
+                  <pre
+                    className="text-sm"
+                    style={
+                      {
+                        color: "rgb(197, 200, 198)",
+                        "text-shadow": "rgba(0, 0, 0, 0.3) 0px 1px",
+                        "font-family":
+                          "Inconsolata Monaco Consolas &quot Courier",
+                        "New&quot": "Courier monospace",
+                        direction: "ltr",
+                        "text-align": "left",
+                        "white-space": "pre",
+                        "word-spacing": "normal",
+                        "word-break": "normal",
+                        "line-height": "1.5",
+                        "tab-size": "4",
+                        hyphens: "none",
+                        padding: "1em",
+                        margin: "0.5em 0px",
+                        overflow: "auto",
+                        "border-radius": "0.3em",
+                        background: "rgb(29, 31, 33)",
+                      } as React.CSSProperties
+                    }
+                  >
+                    <code
+                      className="language-javascript"
+                      style={
+                        {
+                          color: "rgb(197, 200, 198)",
+                          "text-shadow": "rgba(0, 0, 0, 0.3) 0px 1px",
+                          "font-family":
+                            "Inconsolata Monaco Consolas &quot Courier",
+                          "New&quot": "Courier monospace",
+                          direction: "ltr",
+                          "text-align": "left",
+                          "white-space": "pre",
+                          "word-spacing": "normal",
+                          "word-break": "normal",
+                          "line-height": "1.5",
+                          "tab-size": "4",
+                          hyphens: "none",
+                        } as React.CSSProperties
+                      }
+                    >
+                      <span>
+                        &lt;script type =
+                        <span
+                          className="token"
+                          style={{ color: "rgb(168, 255, 96)" }}
+                        >
+                          "text/javascript"
+                        </span>
+                      </span>
+                      <span>
+                        {" "}
+                        src=
+                        <span
+                          className="token"
+                          style={{ color: "rgb(168, 255, 96)" }}
+                        >
+                          "https://testimonial.to/js/iframeResizer.min.js"
+                          <span
+                            className="token"
+                            style={{ color: "rgb(237, 237, 237)" }}
+                          >
+                            &gt;&lt;/script&gt;
+                          </span>
+                        </span>
+                      </span>
+                      <br />
+                      <span>
+                        <span>
+                          &lt;iFrameResize=
+                          <span
+                            className="token"
+                            style={{ color: "rgb(168, 255, 96)" }}
+                          >
+                            "testimonialto-wall-of-love-for-testimonial-light"
+                          </span>
+                        </span>
+                        <span>
+                          {" "}
+                          src=
+                          <span
+                            className="token"
+                            style={{ color: "rgb(168, 255, 96)" }}
+                          >
+                            "https://embed-v2.testimonial.to/w/wall-of-love-for-testimonial?theme=light&amp;card=base"
+                          </span>
+                        </span>
+                        <span>
+                          {" "}
+                          frameborder=
+                          <span
+                            className="token"
+                            style={{ color: "rgb(168, 255, 96)" }}
+                          >
+                            "0"
+                          </span>
+                        </span>
+                        <span>
+                          {" "}
+                          scrolling=
+                          <span
+                            className="token"
+                            style={{ color: "rgb(168, 255, 96)" }}
+                          >
+                            "no"
+                          </span>
+                        </span>
+                        <span>
+                          {" "}
+                          width=
+                          <span
+                            className="token"
+                            style={{ color: "rgb(168, 255, 96)" }}
+                          >
+                            "100%"
+                          </span>
+                        </span>
+                        <span>&lt;/iframe&gt;</span>
+                      </span>
+                      <br />
+                      <span>
+                        <span>
+                          &lt;script type=
+                          <span
+                            className="token"
+                            style={{ color: "rgb(168, 255, 96)" }}
+                          >
+                            "text/javascript"
+                          </span>
+                          &gt;
+                        </span>
+                        <span
+                          className="token"
+                          style={{ color: "rgb(218, 208, 133);" }}
+                        >
+                          iFrameResize
+                        </span>
+                        <span
+                          className="token"
+                          style={{ color: "rgb(197, 200, 198)" }}
+                        >
+                          (
+                        </span>
+                        <span
+                          className="token"
+                          style={{ color: "rgb(197, 200, 198)" }}
+                        ></span>
+                        <span>log:</span>
+                        <span
+                          className="token"
+                          style={{ color: "rgb(153, 204, 153)" }}
+                        >
+                          {" "}
+                          false,
+                        </span>
+                        <span> checkOrigin:</span>
+                        <span
+                          className="token"
+                          style={{ color: "rgb(153, 204, 153)" }}
+                        >
+                          {" "}
+                          false
+                        </span>
+                        <span>,</span>
+                        <span
+                          className="token"
+                          style={{ color: "rgb(168, 255, 96)" }}
+                        >
+                          "#testimonialto-wall-of-love-for-testimonial-light"
+                        </span>
+                        <span>);</span>
+                        <span>&lt;/script&gt;</span>
+                      </span>
+                    </code>
+                  </pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-neutral-900">
+        <div className="max-w-7xl max-auto px-4 sm:px-6">
+          <div className="py-12 md:py-20 dark:border-t ml-30 dark:border-gray-800">
+            <div className="max-w-4xl mx-auto text-center  pb-12 md:pb-12">
+              <h1 className="h1 mb-4 aos-init aos-animate text-5xl font-semibold text-white">
+                Collect and display textimonails all the in one solution{" "}
+              </h1>
+            </div>
+            <div className="relative overflow-hidden">
+              <div id="b2b-companies" className="relative">
+                <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                  <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-24 lg:max-w-none lg:mx-0 lg:px-0">
+                    <div>
+                      <div className="pt-6">
+                        <div className="font-semibold text-xl text-purple-600 mb-2">
+                          Quick to setup
+                        </div>
+                        <h3 className="h3 mb-3 text-white text-4xl">
+                          A dedicated landing page
+                        </h3>
+                        <p className="mt-4 text-lg text-gray-500 dark:text-gray-400">
+                          Create a dedicated landing page for your business.
+                          Share the page link easily via email, social media, or
+                          even SMS. Setup can be done in two minutes.
+                        </p>
+                        <div className="mt-6">
+                          <a
+                            href="/pricing"
+                            target="_blank"
+                            className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700"
+                          >
+                            Try it for free
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="my-auto">
+                    <div className="p-4">
+                      <img
+                        loading="lazy"
+                        src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Ffeatures%2Flanding-page.png?alt=media&amp;token=269a1a1c-4539-4d94-aa9e-ed0425eb1fce"
+                        width="540"
+                        height="405"
+                        alt="quick to set up"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="agency-freelancer">
+                <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                  <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-24 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+                    <div>
+                      <div className="pt-6">
+                        <div className="font-semibold text-xl text-purple-600 mb-2">
+                          Easy to manage
+                        </div>
+                        <h3 className="h3 mb-3 text-white text-4xl font-bold">
+                          A dashboard to manage all testimonials
+                        </h3>
+                        <p className="mt-4 text-lg text-gray-500 dark:text-gray-400">
+                          You will have a simple &amp; clean dashboard to manage
+                          all testimonials in one place. It's like your email
+                          inbox, but it's designed for your social proof!
+                        </p>
+                        <div className="mt-6">
+                          <a
+                            href="/pricing"
+                            target="_blank"
+                            className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700"
+                          >
+                            <h1 className="">Try it for free</h1>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="my-auto lg:col-start-1">
+                    <div className="p-4">
+                      <img
+                        loading="lazy"
+                        className="mt-10 mx-auto relative lg:mt-0 "
+                        src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Ffeatures%2FEasy%20to%20manage%20(1).png?alt=media&amp;token=5d3ae5f2-e35b-4e35-8070-acde541c18ec"
+                        width="540"
+                        alt="easy to manage"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="ecommerce-retail" className="relative">
+                <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                  <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-24 lg:max-w-none lg:mx-0 lg:px-0">
+                    <div>
+                      <div className="pt-6">
+                        <div className="font-semibold text-xl text-purple-600 mb-2">
+                          Track the metrics
+                        </div>
+                        <h3 className="h3 mb-3 text-4xl text-white font-bold">
+                          Understand how video testimonials are performing
+                        </h3>
+                        <p className="my-4 text-lg text-gray-500 dark:text-gray-400">
+                          Track the metrics from all embedded videos, help your
+                          marketing team understand the performance at a glance,
+                          even promote the best-performing videos to different
+                          marketing channels.
+                        </p>
+                        <p className="text-sm font-medium text-gray-500 dark:text-gray-300 mb-4">
+                          * Available in the Ultimate plan
+                        </p>
+                        <div className="mt-6">
+                          <a
+                            href="/pricing"
+                            target="_blank"
+                            className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700"
+                          >
+                            <h1>Try it for free</h1>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="my-auto">
+                    <div className="p-4">
+                      <img
+                        loading="lazy"
+                        className="mt-10 mx-auto relative lg:mt-0 "
+                        src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Ffeatures%2Fmetrics.png?alt=media&amp;token=c5aa1272-4d36-4f9f-8ee6-df660985e7e1"
+                        width="540"
+                        alt="track video metrics"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="consumer-apps">
+                <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                  <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-24 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+                    <div>
+                      <div className="pt-6">
+                        <div className="font-semibold text-xl text-purple-600 mb-2">
+                          More social proof
+                        </div>
+                        <h3 className="h3 mb-3 text-white font-bold text-4xl">
+                          Not only text and video testimonials
+                        </h3>
+                        <p className="mt-4 text-lg text-gray-500 dark:text-gray-400">
+                          If you have testimonials on social media (e.g.
+                          Twitter, LinkedIn, TikTok etc), video hosting
+                          platforms (e.g. YouTube, Vimeo), and other review
+                          sites (e.g. G2, Google, Capterra, Yelp etc), bring
+                          them all to your account. Testimonial helps you manage
+                          all your social proof in a single place!
+                        </p>
+                        <div className="mt-6">
+                          <a
+                            href="/pricing"
+                            target="_blank"
+                            className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700"
+                          >
+                            <h1>Try it for free</h1>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="my-auto lg:col-start-1">
+                    <div className="p-4">
+                      <img
+                        loading="lazy"
+                        className="mt-10 mx-auto relative lg:mt-0 "
+                        src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Ffeatures%2Fmore-social-proof.png?alt=media&amp;token=83a1a3e9-449d-457d-80fb-0cfa55484700"
+                        width="540"
+                        alt="More social proof"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="course-creators" className="relative">
+                <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                  <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-24 lg:max-w-none lg:mx-0 lg:px-0">
+                    <div>
+                      <div className="pt-6">
+                        <div className="font-semibold text-xl text-purple-600 mb-2">
+                          Embed the Wall of Love
+                        </div>
+                        <h3 className="h3 mb-3 text-4xl text-white font-bold">
+                          The best testimonials all in one place
+                        </h3>
+                        <p className="my-4 text-lg text-gray-500 dark:text-gray-400">
+                          Treat the Wall of Love as the place to showcase all
+                          your favorite testimonials. You can embed it to your
+                          website in under a minute. No coding knowledge
+                          required!
+                        </p>
+                        <a
+                          className="underline  font-semibold text-xl text-gray-700 dark:text-gray-200"
+                          href="/wall-of-love"
+                        >
+                          See our Wall of Love in action 👉
+                        </a>
+                        <div className="mt-6">
+                          <a
+                            href="/pricing"
+                            target="_blank"
+                            className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700"
+                          >
+                            <h1>Try it for free</h1>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="my-auto">
+                    <div className="p-4">
+                      <img
+                        loading="lazy"
+                        className="mt-10 mx-auto relative lg:mt-0 "
+                        src="https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/assets%2Ffeatures%2Fwall-of-love.png?alt=media&amp;token=74e955e5-a21b-4cc6-ab05-d497b7fb313a"
+                        width="540"
+                        alt="all in one wall of love"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="consumer-apps">
+                <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                  <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-24 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+                    <div>
+                      <div className="pt-6">
+                        <div className="font-semibold text-xl text-purple-600 mb-2">
+                          Embed a single video testimonial
+                        </div>
+                        <h3 className="h3 mb-3 text-4xl text-white font-bold">
+                          Ad-free hosting for each video
+                        </h3>
+                        <p className="mt-4 text-lg text-gray-500 dark:text-gray-400">
+                          For the video testimonial, you can embed it directly
+                          on your own website like this 👈. You don't need to
+                          use any 3rd-party Ad-free hosting service, e.g.
+                          Wistia, Vimeo.
+                        </p>
+                        <div className="mt-6">
+                          <a
+                            href="/pricing"
+                            target="_blank"
+                            className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700"
+                          >
+                            Try it for free
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="my-auto lg:col-start-1">
+                    <div className="p-4">
+                      <iframe
+                        width="540px"
+                        height="405px"
+                        src="https://embed-v2.testimonial.to/v/64896fee-2a36-4f0d-945c-28a073e0fc38?subtitle=on&amp;animated=on"
+                        scrolling="no"
+                        frameBorder={"0"}
+                        allowFullScreen
+                        style={{"max-width":"100%"} as React.CSSProperties}
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div></div>
     </div>
   );
