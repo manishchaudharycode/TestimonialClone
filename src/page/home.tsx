@@ -1,6 +1,6 @@
 import { Button } from "../components/ui/button";
 
-function HomeDashboard() {
+function Homeboard() {
   return (
     <div className="relative pt-15 pb-5 md:pt-20 md:pb-10 bg-neutral-900 h-full">
       <div className="text-center max-w-4xl mx-auto pb-12 md:pb-16 ">
@@ -47,7 +47,7 @@ function HomeDashboard() {
         </div>
       </div>
       <div className="relative items-center pt-15">
-        <div className="rounded-lg border w-275 h-170 ml-45 border-gray-100 overflow-hidden dark:border-gray-600  p-2">
+        <div className="rounded-lg border w-275 h-170 ml-70 border-gray-100 overflow-hidden dark:border-gray-600  p-2">
           <video
             className="w-full h-full bg-white "
             playsInline
@@ -243,21 +243,7 @@ function HomeDashboard() {
               </p>
             </div>
           </div>
-          <iframe
-            title="iframe"
-            loading="lazy"
-            src="https://embed-v2.testimonial.to/w/testimonial?theme=dark&amp;card=base&amp;subtitle=en&amp;hideDate=on&amp;showHeartAnim"
-            style={
-              {
-                width: "1px",
-                "min-width": "100%",
-                overflow: "hidden",
-                height: "1719px",
-              } as React.CSSProperties
-            }
-            id="iFrameResizer3"
-            scrolling="no"
-          ></iframe>
+          <iframe title="iframe" src="https://embed-v2.testimonial.to/w/wall-of-love-for-testimonial?theme=dark&amp;card=base&amp;hideDate=on" id="iFrameResizer0" scrolling="no" style={{"width": "1px", "min-width": "100%", "overflow": "hidden", "height": "4180px"}as React.CSSProperties}></iframe>
         </div>
       </section>
       <section className="bg-neutral-900">
@@ -1342,4 +1328,4 @@ function HomeDashboard() {
   );
 }
 
-export default HomeDashboard;
+export default Homeboard;

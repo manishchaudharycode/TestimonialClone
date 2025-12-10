@@ -1,5 +1,5 @@
 import Navabar from "../components/navabar"
-import HomeDashboard from "./home"
+import Homeboard from "./home"
 
 function Home() {
   return (
@@ -8,7 +8,7 @@ function Home() {
         <Navabar/>
       </div>
       <div>
-        <HomeDashboard/>
+        <Homeboard/>
       </div>
 
     </div>

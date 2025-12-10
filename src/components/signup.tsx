@@ -13,19 +13,32 @@ import { Label } from "./ui/label"
 
 export function SigUpFrom() {
   return (
-    <Card className="w-full max-w-sm">
+    <Card className="w-full max-w-sm text-white">
       <CardHeader>
         <CardTitle>Login to your account</CardTitle>
         <CardDescription>
           Enter your email below to login to your account
         </CardDescription>
         <CardAction>
-          <Button variant="link">Sign Up</Button>
+          <a href="/signin">Login</a>
         </CardAction>
       </CardHeader>
       <CardContent>
         <form>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 ">
+            <Button variant="outline" className="w-full">
+          Login with Google
+        </Button>
+            <div className="grid gap-2">
+              <Label htmlFor="Name">Name</Label>
+              <Input
+              className="text-white"
+                id="Name"
+                type="Name"
+                placeholder="Name"
+                required
+              />
+            </div>
             <div className="grid gap-2">
               <Label htmlFor="email">Email</Label>
               <Input
@@ -53,9 +66,6 @@ export function SigUpFrom() {
       <CardFooter className="flex-col gap-2">
         <Button type="submit" className="w-full">
           Login
-        </Button>
-        <Button variant="outline" className="w-full">
-          Login with Google
         </Button>
       </CardFooter>
     </Card>

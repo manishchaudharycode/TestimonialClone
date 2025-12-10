@@ -1,3 +1,5 @@
+import { Button } from "../components/ui/button"
+
 function Navabar() {
   return (
     <div className="flex items-center justify-between  border-b border-neutral-500/30 pb-4">
@@ -25,8 +27,8 @@ function Navabar() {
           </ul>
         </div>
         <div className="flex gap-6 mt-5 mr-24 ">
-          <h1 className="text-gray-100 font-semibold">Sign in</h1>
-          <h1 className="text-gray-100 font-semibold">Sign up</h1>
+          <Button className="text-gray-100 font-semibold "><a href="/signin">Login</a></Button>
+         <Button className="text-gray-100 font-semibold bg-blue-900/60"><a href="/signup">Sign Up</a></Button>
         </div>
     </div>
   );

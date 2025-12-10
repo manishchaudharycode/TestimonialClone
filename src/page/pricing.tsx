@@ -940,9 +940,9 @@ function Pricing() {
                       <TableCell>{renderCheckmark(plan.ultimate)}</TableCell>
                     </TableRow>
                   ))}
-                  <TableRow  >
+                  <TableRow>
                     <TableCell></TableCell>
-                    <TableCell >
+                    <TableCell>
                       <Button className=" px-10 py-5  bg-purple-50  hover:bg-purple-200 dark:bg-gray-700 dark:hover:bg-gray-900 text-purple-700 dark:text-gray-200">
                         Get started
                       </Button>
@@ -967,6 +967,534 @@ function Pricing() {
               </Table>
             </div>
           </TooltipProvider>
+          <div className="pb-2 px-4 sm:px-6 lg:px-8 aos-init aos-animate py-12 md:py-20 dark:border-t dark:border-gray-800 relative">
+            <div className="mx-auto text-center pb-6">
+              <h2 className="h2 mb-4 aos-init aos-animate text-4xl font-bold">
+                Our Wall of Love
+              </h2>
+              <p className="max-w-4xl mx-auto text-xl text-gray-600 dark:text-gray-400 mb-8 aos-init aos-animate ">
+                We are loved by startups, marketing agencies, real estate
+                agencies, freelancers, Fortune 500 companies and many more.
+                <span className="bg-yellow-100 text-gray-900 font-semibold">
+                  Our customers' testimonials are the best social proof we can
+                  get!
+                </span>
+              </p>
+              <Button className="border-0 bg-blue-900/60 p-6">
+                <a href="/signup">Create your own Wall of Love </a>
+              </Button>
+            </div>
+            <iframe
+              title="iframe"
+              src="https://embed-v2.testimonial.to/w/wall-of-love-for-testimonial?theme=dark&amp;card=base&amp;hideDate=on"
+              id="iFrameResizer0"
+              scrolling="no"
+              style={
+                {
+                  width: "1px",
+                  "min-width": "100%",
+                  overflow: "hidden",
+                  height: "4180px",
+                } as React.CSSProperties
+              }
+            ></iframe>
+          </div>
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20 dark:border-t dark:border-gray-800">
+            <div className="max-w-3xl mx-auto text-center pb-12">
+              <h2 className="text-4xl font-bold">Frequently asked questions</h2>
+            </div>
+            <ul className="grid gap-8 md:grid-cols-2 xl:col-gap-12 lg:row-gap-1">
+              <li>
+                <h4 className="text-lg font-medium mb-2">
+                  Can I add multiple spaces in one account?
+                </h4>
+                <p className="text-base text-gray-500 dark:text-gray-400">
+                  You certainly can! Depending on your needs, you can add up to
+                  10 spaces in the Premium plan or an unlimited number of spaces
+                  in the Ultimate plan. Keep in mind that additional spaces are
+                  available at an add-on cost.
+                </p>
+              </li>
+              <li>
+                <h4 className="text-lg font-medium mb-2">
+                  Is there any time limit for each video?
+                </h4>
+                <p className="text-base text-gray-500 dark:text-gray-400">
+                  Yes! Every video has a limit. Free plan has a limit of 2
+                  minutes, 3 minutes for the Premium plan and 5 minutes for the
+                  Ultimate plan. It's more than enough to cover the whole
+                  testimonial recording.{" "}
+                </p>
+              </li>
+              <li>
+                <h4 className="text-lg font-medium mb-2">
+                  What happens after free credits are exhausted?
+                </h4>
+                <p className="text-base text-gray-500 dark:text-gray-400">
+                  Your customers will not be blocked from submitting their
+                  testimonials. However on your side, you need to upgrade to the
+                  relavant plan to access additional text and video
+                  testimonials.
+                </p>
+              </li>
+              <li>
+                <h4 className="text-lg font-medium mb-2">
+                  What is the Wall of Love?
+                </h4>
+                <p className="text-base text-gray-500 dark:text-gray-400">
+                  Wall of Love is a place to display all your selected
+                  testimonials. They can be video, text or social proof like
+                  Twitter shoutouts.
+                  <span className="font-semibold text-white underline">
+                    Here is the Wall of Love for our Testimonial product,
+                  </span>
+                  check it out!
+                </p>
+              </li>
+              <li>
+                <h4 className="text-lg font-medium mb-2">
+                  How to embed the Wall of Love?
+                </h4>
+                <p className="text-base text-gray-500 dark:text-gray-400">
+                  It's just 3 lines of HTML code. You can embed it in any
+                  no-code platform (Webflow, WordPress, you name it!)
+                  <span className="text-white font-semibold underline">
+                    You can find some samples here.
+                  </span>
+                </p>
+              </li>
+              <li>
+                <h4 className="text-lg font-medium mb-2">
+                  Can I get embed a single video to my site?
+                </h4>
+                <p className="text-base text-gray-500 dark:text-gray-400">
+                  Yes, but only if you are our premium user! We provide embed
+                  code for each video. It's just one-line code. You just copy
+                  the code and place it in any no-code platform, like how you
+                  embed the Wall of Love.
+                </p>
+              </li>
+              <li>
+                <h4 className="text-lg font-medium mb-2">
+                  Can I download the video testimonials?
+                </h4>
+                <p className="text-base text-gray-500 dark:text-gray-400">
+                  Yes! You can download all videos in MP4 format. You will have
+                  a single page to manage all testimonials for each of your
+                  products.{" "}
+                </p>
+              </li>
+              <li>
+                <h4 className="text-lg font-medium mb-2">
+                  What information can I collect from my customer?
+                </h4>
+                <p className="text-base text-gray-500 dark:text-gray-400">
+                  Apart from the testimonial, you can collect your customer's
+                  name, headshot, email, title and company, social link. You can
+                  also add up to 5 custom data to collect, e.g. phone number,
+                  etc.
+                </p>
+              </li>
+              <li>
+                <h4 className="text-lg font-medium mb-2">
+                  Do you offer discount?
+                </h4>
+                <p className="text-base text-gray-500 dark:text-gray-400">
+                  Sure! We offer discounts for bootstrappers and non-profits. It
+                  will only apply on the subscription plan. Please send us a
+                  message with an intro to your business to get the discount
+                  code.
+                </p>
+              </li>
+              <li>
+                <h4 className="text-lg font-medium mb-2">
+                  Do you have any other question?
+                </h4>
+                <p className="text-base text-gray-500 dark:text-gray-400">
+                  No problem! Please send us your messages in our chatbox. We
+                  will get back to you within a day.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <footer>
+            <div className="ml-20 py-12 md:py-16">
+              <div className="max-w-7xl max-auto px-4 sm:px-6">
+                <div className="grid md:grid-cols-12 gap-8 lg:gap-20">
+                  <div className="md:col-span-3 lg:col-span-4">
+                    <div className="mb-2">
+                      <a className="inline-block" href="/" aria-label="Cruip">
+                        <img
+                          loading="lazy"
+                          className="h-10 fill-current text-purple-600"
+                          src="https://testimonial.to/static/media/logo.5ff3c18e.svg"
+                          alt="Logo"
+                        />
+                      </a>
+                    </div>
+                    <div className="text-gray-400">
+                      The easiest solution to getting text and video
+                      testimonials from your customers
+                    </div>
+                  </div>
+                  <div className="md:col-span-6 lg:col-span-8 grid grid-cols-2 sm:grid-cols-4 gap-8">
+                    <div className="text-sm">
+                      <h6 className="text-gray-200 font-semibold uppercase mb-1">
+                        products
+                      </h6>
+                      <ul>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/wall-of-love"
+                          >
+                            Our Wall of Love
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/widgets"
+                          >
+                            Embed widgets
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/apps/chrome-extension"
+                          >
+                            Chrome extension
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/apps/slack"
+                          >
+                            Slack app
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/apps/hopin"
+                          >
+                            Hopin app
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/pricing"
+                          >
+                            Pricing
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/features"
+                          >
+                            Features
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="/resources/testimonial-integrates-with-ai"
+                            target="_blank"
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          >
+                            AI features
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/integrations"
+                          >
+                            Integrations
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://www.youtube.com/watch?v=a-qT9pbOHkg"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            Product demo
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://status.testimonial.to"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            Status page
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="text-sm">
+                      <h6 className="text-gray-200 font-semibold uppercase mb-1">
+                        resources
+                      </h6>
+                      <ul>
+                        <li className="mb-1">
+                          <a
+                            href="https://help.testimonial.to"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            Help center
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://help.testimonial.to"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            Our blog
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://help.testimonial.to"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            Tutorials
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://help.testimonial.to"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            Customer stories
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://help.testimonial.to"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            Youtube channel
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://help.testimonial.to"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            Join affiliate
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://help.testimonial.to"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            program
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://help.testimonial.to"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            Privacy policy
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://help.testimonial.to"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            Terms of Service
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://help.testimonial.to"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            Cookie policy
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://help.testimonial.to"
+                            target="_blank"
+                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                          >
+                            Contact us
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="text-sm">
+                      <h6 className="text-gray-200 font-semibold uppercase mb-1">
+                        customers
+                      </h6>
+                      <ul>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/agency"
+                          >
+                            Agencies
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="/customers#b2b-companies"
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          >
+                            B2B companies
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="/customers/course-creator"
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          >
+                            Course creators
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="/customers#ecommerce-retail"
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          >
+                            ecommerce
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="/customers#consumer-apps"
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          >
+                            Consumer apps
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="text-sm">
+                      <h6 className="text-gray-200 font-semibold uppercase mb-1">
+                        free tools
+                      </h6>
+                      <ul>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/tools/case-study-generator"
+                          >
+                            Case study generator
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/tools/testimonial-questions-generator"
+                          >
+                            Testimonial questions generator
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/tools/google"
+                          >
+                            Google Business reviews
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/tools/yelp"
+                          >
+                            Yelp reviews
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://testimonial.new"
+                            target="_blank"
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          >
+                            Testimonial.new
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://reviewtoimage.com"
+                            target="_blank"
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          >
+                            ReviewToImage.com
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://seeyafuture.me/"
+                            target="_blank"
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          >
+                            SeeyaFuture.me
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="http://streetinterview.ai/"
+                            target="_blank"
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          >
+                            Street Interview AI
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://typo.domains/"
+                            target="_blank"
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          >
+                            Typo.domains
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            href="https://ismydriverlicensearealid.com"
+                            target="_blank"
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          >
+                            Real ID checker
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                            href="/tools"
+                          >
+                            Other free tools
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
         </div>
       </section>
     </div>

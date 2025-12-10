@@ -1,4 +1,4 @@
-import { Button } from "./ui/button"
+import { Button } from "./ui/button";
 import {
   Card,
   CardAction,
@@ -7,28 +7,32 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "./ui/card"
-import { Input } from "./ui/input"
-import { Label } from "./ui/label"
+} from "./ui/card";
+import { Input } from "./ui/input";
+import { Label } from "./ui/label";
 
 export function LoginFrom() {
   return (
-    <Card className="w-full max-w-sm">
+    <Card className="w-full max-w-sm text-white">
       <CardHeader>
         <CardTitle>Login to your account</CardTitle>
         <CardDescription>
           Enter your email below to login to your account
         </CardDescription>
         <CardAction>
-          <Button variant="link">Sign Up</Button>
+          <a href="/signup">Sign Up</a>
         </CardAction>
       </CardHeader>
       <CardContent>
         <form>
           <div className="flex flex-col gap-6">
-            <div className="grid gap-2">
+            <Button variant="outline" className="w-full bg-white text-neutral-700 font-semibold">
+              Login with Google
+            </Button>
+            <div className="grid gap-2 text-white">
               <Label htmlFor="email">Email</Label>
               <Input
+                className="text-white"
                 id="email"
                 type="email"
                 placeholder="m@example.com"
@@ -45,19 +49,16 @@ export function LoginFrom() {
                   Forgot your password?
                 </a>
               </div>
-              <Input id="password" type="password" required />
+              <Input className="" id="password" type="password" required />
             </div>
           </div>
         </form>
       </CardContent>
       <CardFooter className="flex-col gap-2">
-        <Button type="submit" className="w-full">
+        <Button variant="outline" type="submit" className="w-full">
           Login
-        </Button>
-        <Button variant="outline" className="w-full">
-          Login with Google
         </Button>
       </CardFooter>
     </Card>
-  )
+  );
 }
