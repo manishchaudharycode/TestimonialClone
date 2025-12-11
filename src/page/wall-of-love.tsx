@@ -1,1 +1,0 @@
- <li><h4 className="text-lg font-medium mb-2">Can I add multiple spaces in one account?</h4><p className="text-base text-gray-500 dark:text-gray-400">You certainly can! Depending on your needs, you can add up to 10 spaces in the Premium plan or an unlimited number of spaces in the Ultimate plan. Keep in mind that additional spaces are available at an add-on cost.</p></li>

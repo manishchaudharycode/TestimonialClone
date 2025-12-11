@@ -15,7 +15,12 @@ export function SigUpFrom() {
   return (
     <Card className="w-full max-w-sm text-white">
       <CardHeader>
-        <CardTitle>Login to your account</CardTitle>
+        <CardTitle>
+          <div className="flex items-center">
+            <input type="checkbox"/>
+            <h1 className="ml-2">SignUp to your account </h1>
+          </div>
+        </CardTitle>
         <CardDescription>
           Enter your email below to login to your account
         </CardDescription>
@@ -27,7 +32,7 @@ export function SigUpFrom() {
         <form>
           <div className="flex flex-col gap-6 ">
             <Button variant="outline" className="w-full">
-          Login with Google
+          Sign Up with Google
         </Button>
             <div className="grid gap-2">
               <Label htmlFor="Name">Name</Label>
@@ -64,8 +69,8 @@ export function SigUpFrom() {
         </form>
       </CardContent>
       <CardFooter className="flex-col gap-2">
-        <Button type="submit" className="w-full">
-          Login
+        <Button type="submit" className="bg-neutral-400 px-15 py-6">
+          Sign Up
         </Button>
       </CardFooter>
     </Card>
