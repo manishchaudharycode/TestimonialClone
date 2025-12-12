@@ -1,10 +1,12 @@
 
 import './index.css';
 import { Route, Routes } from "react-router-dom";
-import Home from "./page/homePage";
+
 import Pricing from './page/pricing';
 import SignUp from './page/signUp';
 import SignIn from './page/signIn';
+import Home from './page/home';
+import WallOfLove from './page/wall-of-love';
 function App() {
 
 
@@ -15,6 +17,7 @@ function App() {
     <Route path="/pricing" element={<Pricing/>} />
     <Route path='/signin' element={<SignIn/>} />
     <Route path='/signup' element={<SignUp/>} />
+    <Route path='/wall-of-love' element={<WallOfLove/>} />
   </Routes>
  </div>
   )

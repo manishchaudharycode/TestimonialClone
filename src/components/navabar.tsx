@@ -2,9 +2,9 @@ import { Button } from "../components/ui/button"
 
 function Navabar() {
   return (
-    <div className="flex items-center justify-between  border-b border-neutral-500/30 pb-4">
+    <div className="flex items-center justify-between  border-b border-neutral-500/30 pb-12 ">
       <div className="mt-5 ml-23 ">
-        <img className="h-10" loading="lazy" src="/logo.svg" alt="logo" />
+       <a href="/"><img className="h-10" loading="lazy" src="/logo.svg" alt="logo" /></a>
         </div>
         <div className="grid mt-4 ">
           <ul className="flex  gap-4">
