@@ -52,7 +52,7 @@ function Home() {
           </div>
         </div>
         <div className="relative items-center pt-15">
-          <div className="rounded-lg border w-275 h-170 ml-70 border-gray-100 overflow-hidden dark:border-gray-600  p-2">
+          <div className="rounded-lg border w-275 max-w-7xl mx-auto border-gray-100 overflow-hidden dark:border-gray-600  p-2">
             <video
               className="w-full h-full bg-white "
               playsInline
@@ -469,7 +469,7 @@ function Home() {
           </div>
         </section>
         <section className="bg-neutral-900">
-          <div className="max-w-7xl max-auto px-4 sm:px-6">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="py-12 md:py-20 dark:border-t ml-30 dark:border-gray-800">
               <div className="max-w-4xl mx-auto text-center  pb-12 md:pb-12">
                 <h1 className="h1 mb-4 aos-init aos-animate text-5xl font-semibold text-white">
@@ -746,7 +746,7 @@ function Home() {
           </div>
         </section>
         <section className="py-12 bg-neutral-900 sm:py-16 lg:py-20">
-          <div className="px-4 max-auto sm:px-6 lg:px-8 max-w-6xl text-center ml-35">
+          <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl text-center ">
             <div className="text-center">
               <h1 className="h1 text-gray-200 text-7xl font-bold">
                 Integrate with any platform
@@ -865,7 +865,7 @@ function Home() {
         <section className="bg-neutral-800">
           <div className="mx-w-6xl mx-auto px-4 sm:px-6">
             <div className="pt-20">
-              <div className="max-w-3xl max-auto text-center pb-12 ml-70 md:pb-16">
+              <div className="max-w-3xl mx-auto text-center pb-12  md:pb-16">
                 <h1 className="h2 mb-4 text-4xl font-bold text-gray-200">
                   Ready to collect textimonails?
                 </h1>
@@ -880,7 +880,7 @@ function Home() {
                   className=" my-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5"
                 >
                   <li className="flex justify-center  lg:justify-end lg:col-span-1">
-                    <div className="flex-shrink-0">
+                    <div className="">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -900,7 +900,7 @@ function Home() {
                     </p>
                   </li>
                   <li className="flex justify-center lg:justify-start lg:col-span-1">
-                    <div className="flex-shrink-0">
+                    <div className="">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -968,8 +968,8 @@ function Home() {
           </div>
         </section>
         <footer>
-          <div className="ml-20 py-12 md:py-16">
-            <div className="max-w-7xl max-auto px-4 sm:px-6">
+          <div className="py-12 md:py-16">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6">
               <div className="grid md:grid-cols-12 gap-8 lg:gap-20">
                 <div className="md:col-span-3 lg:col-span-4">
                   <div className="mb-2">

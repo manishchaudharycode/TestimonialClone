@@ -111,7 +111,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -130,7 +130,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -149,7 +149,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -168,7 +168,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -187,7 +187,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -206,7 +206,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -255,7 +255,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -274,7 +274,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -293,7 +293,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -312,7 +312,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -331,7 +331,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -350,7 +350,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -369,7 +369,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -419,7 +419,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -438,7 +438,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -457,7 +457,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -476,7 +476,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -495,7 +495,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -514,7 +514,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -533,7 +533,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -552,7 +552,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className="w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -571,7 +571,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -618,7 +618,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className="w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -637,7 +637,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -656,7 +656,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -675,7 +675,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -694,7 +694,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -713,7 +713,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -732,7 +732,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -751,7 +751,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -770,7 +770,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -789,7 +789,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -808,7 +808,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -827,7 +827,7 @@ function Pricing() {
                       <li className="flex">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="flex-shrink-0 w-5 h-5 text-green-500 my-auto"
+                          className=" w-5 h-5 text-green-500 my-auto"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -865,7 +865,7 @@ function Pricing() {
                         contract, payment via invoice/PO etc.
                       </div>
                     </div>
-                    <div className="mt-6 rounded-md lg:mt-0 lg:ml-10 lg:flex-shrink-0">
+                    <div className="mt-6 rounded-md lg:mt-0 lg:ml-10 ">
                       <button className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-100">
                         Contact us
                       </button>
@@ -1117,7 +1117,7 @@ function Pricing() {
               </li>
             </ul>
           </div>
-          <footer>
+          <div className="border-t border-gray-700" >
             <div className="ml-20 py-12 md:py-16">
               <div className="max-w-7xl max-auto px-4 sm:px-6">
                 <div className="grid md:grid-cols-12 gap-8 lg:gap-20">
@@ -1494,7 +1494,7 @@ function Pricing() {
                 </div>
               </div>
             </div>
-          </footer>
+          </div>
         </div>
       </section>
     </div>

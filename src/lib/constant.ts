@@ -203,3 +203,57 @@ export const pricingData: IPricing[] = [
     cta:""
   },
 ];
+
+interface Ifeatures{
+  svgUrl:string,
+  titleF: string,
+  subTitle:string
+}
+
+export const  featuresData: Ifeatures[] =[{
+  svgUrl:'http://www.w3.org/2000/svg',
+  titleF:"Dedicated page",
+  subTitle:"For each of your businesses, it will have a dedicated space page with a unique link. Your customers can directly go there to submit a text or a video testimonial."
+},
+{
+  svgUrl:'http://www.w3.org/2000/svg',
+  titleF:"Embeddable Wall of love",
+  subTitle:"It's a page to show all your selected testimonials. You can even add the whole wall to your own site with an iframe embed code."
+},
+{
+  svgUrl:'http://www.w3.org/2000/svg',
+  titleF:"Dashboard page",
+  subTitle:"You will have a dashboard page to manage all your spaces. You can add/update/remove the space as you want."
+},
+{
+  svgUrl:'http://www.w3.org/2000/svg',
+  titleF:"Video download",
+  subTitle:"You will have the access to download the video in the MP4 format with its original resolution."
+},
+{
+  svgUrl:'http://www.w3.org/2000/svg',
+  titleF:"Video embed",
+  subTitle:"One-line embed code is available for each video. You can paste it in any no-code platform. We take care of all hosting and streaming."
+},
+{
+  svgUrl:'http://www.w3.org/2000/svg',
+  titleF:"Your video message",
+  subTitle:"You can add your own video in the space page. It's more personal and may help encourage customers send you their best shoutouts."
+},
+{
+  svgUrl:'http://www.w3.org/2000/svg',
+  titleF:"Custom domain",
+  subTitle:"You can add the custom domain for each space. The link can be testimonial.your-product.com, or whatever you like."
+},
+{
+  svgUrl:'http://www.w3.org/2000/svg',
+  titleF:"Custom color",
+  subTitle:"You can add a custom color for buttons to make it more fit into your own brand."
+},
+{
+  svgUrl:'http://www.w3.org/2000/svg',
+  titleF:"Dark or light theme",
+  subTitle:"You can choose dark or light theme for the product page to better fit your website style."
+}
+
+]

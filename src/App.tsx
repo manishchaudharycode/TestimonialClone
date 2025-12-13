@@ -7,6 +7,7 @@ import SignUp from './page/signUp';
 import SignIn from './page/signIn';
 import Home from './page/home';
 import WallOfLove from './page/wall-of-love';
+import Features from './page/features';
 function App() {
 
 
@@ -14,6 +15,7 @@ function App() {
  <div>
   <Routes>
     <Route path="/" element={<Home/>} />
+    <Route path='/features' element={<Features/>}/>
     <Route path="/pricing" element={<Pricing/>} />
     <Route path='/signin' element={<SignIn/>} />
     <Route path='/signup' element={<SignUp/>} />
