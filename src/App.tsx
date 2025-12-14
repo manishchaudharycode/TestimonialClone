@@ -8,6 +8,7 @@ import SignIn from './page/signIn';
 import Home from './page/home';
 import WallOfLove from './page/wall-of-love';
 import Features from './page/features';
+import Integration from './page/integrations';
 function App() {
 
 
@@ -15,6 +16,7 @@ function App() {
  <div>
   <Routes>
     <Route path="/" element={<Home/>} />
+    <Route path='/integrations' element={<Integration/>} />
     <Route path='/features' element={<Features/>}/>
     <Route path="/pricing" element={<Pricing/>} />
     <Route path='/signin' element={<SignIn/>} />

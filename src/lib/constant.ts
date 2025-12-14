@@ -21,7 +21,8 @@ export const plansData: IPlans[] = [
   {
     title: "Public Wall of Love page",
     description: "Display testimonials publicly on a branded wall.",
-    imageUrl: "https://testimonial.to/static/media/wall-of-love-light.c2777316.png",
+    imageUrl:
+      "https://testimonial.to/static/media/wall-of-love-light.c2777316.png",
     starter: true,
     starterPlus: true,
     premium: true,
@@ -102,7 +103,8 @@ export const plansData: IPlans[] = [
   {
     title: "Your message in a video",
     description: "Attach personal introduction messages to testimonials.",
-    imageUrl: "https://testimonial.to/static/media/your-video-message.509025b5.png",
+    imageUrl:
+      "https://testimonial.to/static/media/your-video-message.509025b5.png",
     starter: false,
     starterPlus: false,
     premium: true,
@@ -120,7 +122,8 @@ export const plansData: IPlans[] = [
   {
     title: "Portfolio page",
     description: "Create a dedicated portfolio page.",
-    imageUrl: "https://imagedelivery.net/pcavElAZUUevXK53Dl4vWA/0b049d8c-7163-4ca7-ec54-b30cf654ea00/public",
+    imageUrl:
+      "https://imagedelivery.net/pcavElAZUUevXK53Dl4vWA/0b049d8c-7163-4ca7-ec54-b30cf654ea00/public",
     starter: false,
     starterPlus: false,
     premium: true,
@@ -138,7 +141,8 @@ export const plansData: IPlans[] = [
   {
     title: "Sentiment analysis",
     description: "AI-powered emotional sentiment evaluation.",
-    imageUrl: "https://imagedelivery.net/pcavElAZUUevXK53Dl4vWA/fa9397d8-9950-48b9-16bb-57b1b96ac600/public",
+    imageUrl:
+      "https://imagedelivery.net/pcavElAZUUevXK53Dl4vWA/fa9397d8-9950-48b9-16bb-57b1b96ac600/public",
     starter: false,
     starterPlus: false,
     premium: false,
@@ -147,7 +151,8 @@ export const plansData: IPlans[] = [
   {
     title: "Star rating snippet",
     description: "Embed a testimonial rating widget.",
-    imageUrl: "https://imagedelivery.net/pcavElAZUUevXK53Dl4vWA/4643e083-22a3-4557-264f-08d998bac400/public",
+    imageUrl:
+      "https://imagedelivery.net/pcavElAZUUevXK53Dl4vWA/4643e083-22a3-4557-264f-08d998bac400/public",
     starter: false,
     starterPlus: false,
     premium: false,
@@ -182,6 +187,13 @@ export const plansData: IPlans[] = [
   },
 ];
 
+export interface IBrand {
+  title: string;
+  image: string;
+  description: string;
+  tags: string[];
+}
+
 interface IPricing {
   title: string;
   subtitle: string;
@@ -189,7 +201,7 @@ interface IPricing {
   priceSubtitle: string;
   headline: string;
   features: string[];
-  cta : string
+  cta: string;
 }
 
 export const pricingData: IPricing[] = [
@@ -200,60 +212,69 @@ export const pricingData: IPricing[] = [
     headline: "Free forever, features include:",
     priceSubtitle: "(Forever free)",
     features: ["1 space", "2 video textimonails in total"],
-    cta:""
+    cta: "",
   },
 ];
 
-interface Ifeatures{
-  svgUrl:string,
-  titleF: string,
-  subTitle:string
+export interface Ifeatures {
+  svgUrl: string;
+  titleF: string;
+  subTitle: string;
 }
 
-export const  featuresData: Ifeatures[] =[{
-  svgUrl:'http://www.w3.org/2000/svg',
-  titleF:"Dedicated page",
-  subTitle:"For each of your businesses, it will have a dedicated space page with a unique link. Your customers can directly go there to submit a text or a video testimonial."
-},
-{
-  svgUrl:'http://www.w3.org/2000/svg',
-  titleF:"Embeddable Wall of love",
-  subTitle:"It's a page to show all your selected testimonials. You can even add the whole wall to your own site with an iframe embed code."
-},
-{
-  svgUrl:'http://www.w3.org/2000/svg',
-  titleF:"Dashboard page",
-  subTitle:"You will have a dashboard page to manage all your spaces. You can add/update/remove the space as you want."
-},
-{
-  svgUrl:'http://www.w3.org/2000/svg',
-  titleF:"Video download",
-  subTitle:"You will have the access to download the video in the MP4 format with its original resolution."
-},
-{
-  svgUrl:'http://www.w3.org/2000/svg',
-  titleF:"Video embed",
-  subTitle:"One-line embed code is available for each video. You can paste it in any no-code platform. We take care of all hosting and streaming."
-},
-{
-  svgUrl:'http://www.w3.org/2000/svg',
-  titleF:"Your video message",
-  subTitle:"You can add your own video in the space page. It's more personal and may help encourage customers send you their best shoutouts."
-},
-{
-  svgUrl:'http://www.w3.org/2000/svg',
-  titleF:"Custom domain",
-  subTitle:"You can add the custom domain for each space. The link can be testimonial.your-product.com, or whatever you like."
-},
-{
-  svgUrl:'http://www.w3.org/2000/svg',
-  titleF:"Custom color",
-  subTitle:"You can add a custom color for buttons to make it more fit into your own brand."
-},
-{
-  svgUrl:'http://www.w3.org/2000/svg',
-  titleF:"Dark or light theme",
-  subTitle:"You can choose dark or light theme for the product page to better fit your website style."
-}
-
-]
+export const featuresData: Ifeatures[] = [
+  {
+    svgUrl: "http://www.w3.org/2000/svg",
+    titleF: "Dedicated page",
+    subTitle:
+      "For each of your businesses, it will have a dedicated space page with a unique link. Your customers can directly go there to submit a text or a video testimonial.",
+  },
+  {
+    svgUrl: "http://www.w3.org/2000/svg",
+    titleF: "Embeddable Wall of love",
+    subTitle:
+      "It's a page to show all your selected testimonials. You can even add the whole wall to your own site with an iframe embed code.",
+  },
+  {
+    svgUrl: "http://www.w3.org/2000/svg",
+    titleF: "Dashboard page",
+    subTitle:
+      "You will have a dashboard page to manage all your spaces. You can add/update/remove the space as you want.",
+  },
+  {
+    svgUrl: "http://www.w3.org/2000/svg",
+    titleF: "Video download",
+    subTitle:
+      "You will have the access to download the video in the MP4 format with its original resolution.",
+  },
+  {
+    svgUrl: "http://www.w3.org/2000/svg",
+    titleF: "Video embed",
+    subTitle:
+      "One-line embed code is available for each video. You can paste it in any no-code platform. We take care of all hosting and streaming.",
+  },
+  {
+    svgUrl: "http://www.w3.org/2000/svg",
+    titleF: "Your video message",
+    subTitle:
+      "You can add your own video in the space page. It's more personal and may help encourage customers send you their best shoutouts.",
+  },
+  {
+    svgUrl: "http://www.w3.org/2000/svg",
+    titleF: "Custom domain",
+    subTitle:
+      "You can add the custom domain for each space. The link can be testimonial.your-product.com, or whatever you like.",
+  },
+  {
+    svgUrl: "http://www.w3.org/2000/svg",
+    titleF: "Custom color",
+    subTitle:
+      "You can add a custom color for buttons to make it more fit into your own brand.",
+  },
+  {
+    svgUrl: "http://www.w3.org/2000/svg",
+    titleF: "Dark or light theme",
+    subTitle:
+      "You can choose dark or light theme for the product page to better fit your website style.",
+  },
+];
