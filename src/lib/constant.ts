@@ -187,12 +187,7 @@ export const plansData: IPlans[] = [
   },
 ];
 
-export interface IBrand {
-  title: string;
-  image: string;
-  description: string;
-  tags: string[];
-}
+
 
 interface IPricing {
   title: string;
@@ -278,3 +273,77 @@ export const featuresData: Ifeatures[] = [
       "You can choose dark or light theme for the product page to better fit your website style.",
   },
 ];
+
+export interface IName {
+  text: string;
+}
+
+export const appName : IName[] =[
+  {
+    text:"All Integrations"
+  },
+  {
+    text:"Popular"
+  },
+  {
+    text:"Ecommerce"
+  },
+  {
+    text:"Website Builders"
+  },
+  {
+    text:"Online Creators"
+  },
+  {
+    text:"Form Builders"
+  },
+  {
+    text:"Newsletters"
+  },
+  {
+    text:"Social Media"
+  },
+  {
+    text:"Online Courses"
+  },
+  {
+    text:"Virtual Events"
+  },
+  {
+    text:"Real Estate"
+  },
+  {
+    text:"Review Platforms"
+  },
+  {
+    text:"Customer Support"
+  },
+  {
+    text:"App Stores"
+  },
+  {
+    text:" Travel"
+  },
+  {
+    text:"Local Business"
+  },
+  {
+    text:"Custom"
+  },
+]
+
+export interface IBrand {
+  title: string;
+  image: string;
+  description: string;
+  tags: string[];
+}
+
+export const brandsTable : IBrand[] = [
+  {
+    title:"wbflow",
+    description:"joewo",
+    image:"iman",
+    tags:["Popular","Ecommerce"]
+  }
+]

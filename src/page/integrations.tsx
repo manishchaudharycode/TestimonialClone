@@ -1,9 +1,11 @@
 import Navabar from "../components/navabar"
+import { Button } from "../components/ui/button"
+import { appName } from "../lib/constant"
 
 
 function Integration() {
   return (
-    <div className="bg-neutral-900 h-screen">
+    <div className="bg-neutral-900  h-screen">
         <div>
             <Navabar/>
         </div>
@@ -12,9 +14,17 @@ function Integration() {
                 <h1 className="text-white text-6xl font-medium">Import customer testimonials and embed them on any platform</h1>
                 <p className="text-xl mt-4 text-gray-500">We built the ultimate tool for showcasing your satisfied customers. With 3-lines of HTML code, you can embed all your testimonials to any platform!</p>
             </div>
-            <div className="flex flex-col md:flex-row md:block">
+            <div className="flex flex-col md:flex-row md:block ">
                 <div className="w-full md:w-64 mb-3 float-left sticky to-5 sidebar ">
-                    
+                    <div className="relative inline-block text-left z-30 md:hidden w-full">
+                        <div>
+                            <Button className="admin-options-btn inline-flex justify-between w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text0sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100  "></Button>
+                        </div>
+                    </div>
+                    <ul className="list-none space-y-2  hidden md:block">
+                        {appName.map((name , ind) =>( <li key={ind} className="border-l-4 ml-3 font-bold py-2 cursor-pointer bg-purple-100 dark:bg-gray-700 text-gray-700 dark:text-gray-100 border-purple-600 rounded-r-md">{name.text}</li>))}
+                       
+                    </ul>
                 </div>
                 <div className="widget-list-container w-full  md:px-8 rightsidebarblock  ">
                     
