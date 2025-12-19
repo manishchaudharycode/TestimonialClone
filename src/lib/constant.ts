@@ -187,8 +187,6 @@ export const plansData: IPlans[] = [
   },
 ];
 
-
-
 interface IPricing {
   title: string;
   subtitle: string;
@@ -347,3 +345,269 @@ export const brandsTable : IBrand[] = [
     tags:["Popular","Ecommerce"]
   }
 ]
+
+export interface IList {
+  PRODUCTS?: {
+    to:string;
+    title1: string;
+  };
+  Resources?: {
+    to:string;
+    title2: string;
+  };
+  Customers?:{
+    to:string;
+    title3:string
+  };
+  Freetools?:{
+    to:string;
+    title4:string
+  }
+}
+
+export interface IList {
+  PRODUCTS?: {
+    to: string;
+    title1: string;
+  };
+  Resources?: {
+    to: string;
+    title2: string;
+  };
+  Customers?: {
+    to: string;
+    title3: string;
+  };
+  Freetools?: {
+    to: string;
+    title4: string;
+  };
+}
+
+export const allList: IList[] = [
+
+  {
+    PRODUCTS: {
+      to: "",
+      title1: ""
+    }
+  },
+  {
+    PRODUCTS: {
+      to: "/product2",
+      title1: "Product 2"
+    }
+  },
+  {
+    PRODUCTS: {
+      to: "/product3",
+      title1: "Product 3"
+    }
+  },
+  {
+    PRODUCTS: {
+      to: "/product4",
+      title1: "Product 4"
+    }
+  },
+  {
+    PRODUCTS: {
+      to: "/product5",
+      title1: "Product 5"
+    }
+  },
+  {
+    PRODUCTS: {
+      to: "/product6",
+      title1: "Product 6"
+    }
+  },
+  {
+    PRODUCTS: {
+      to: "/product7",
+      title1: "Product 7"
+    }
+  },
+  {
+    PRODUCTS: {
+      to: "/product8",
+      title1: "Product 8"
+    }
+  },
+  {
+    PRODUCTS: {
+      to: "/product9",
+      title1: "Product 9"
+    }
+  },
+  {
+    PRODUCTS: {
+      to: "/product10",
+      title1: "Product 10"
+    }
+  },
+   {
+    PRODUCTS: {
+      to: "/product10",
+      title1: "Product 11"
+    }
+  },
+  {
+    Resources: {
+      to: "/resource1",
+      title2: "Resource 1"
+    }
+  },
+  {
+    Resources: {
+      to: "/resource2",
+      title2: "Resource 2"
+    }
+  },
+  {
+    Resources: {
+      to: "/resource3",
+      title2: "Resource 3"
+    }
+  },
+  {
+    Resources: {
+      to: "/resource4",
+      title2: "Resource 4"
+    }
+  },
+  {
+    Resources: {
+      to: "/resource5",
+      title2: "Resource 5"
+    }
+  },
+  {
+    Resources: {
+      to: "/resource6",
+      title2: "Resource 6"
+    }
+  },
+  {
+    Resources: {
+      to: "/resource7",
+      title2: "Resource 7"
+    }
+  },
+  {
+    Resources: {
+      to: "/resource8",
+      title2: "Resource 8"
+    }
+  },
+  {
+    Resources: {
+      to: "/resource9",
+      title2: "Resource 9"
+    }
+  },
+  {
+    Resources: {
+      to: "/resource10",
+      title2: "Resource 10"
+    }
+  },
+  {
+    Resources: {
+      to: "/resource10",
+      title2: "Resource 10"
+    }
+  },
+  // Customers
+  {
+    Customers: {
+      to: "/customers",
+      title3: "Customer Stories"
+    }
+  },
+  {
+    Customers: {
+      to: "/customers",
+      title3: "Customer Stories"
+    }
+  },
+  {
+    Customers: {
+      to: "/customers",
+      title3: "Customer Stories"
+    }
+  },
+  {
+    Customers: {
+      to: "/customers",
+      title3: "Customer Stories"
+    }
+  },
+  // Freetools
+  {
+    Freetools: {
+      to: "/freetools",
+      title4: "Free Tools"
+    }
+  },
+  {
+    Freetools: {
+      to: "/freetools",
+      title4: "Free Tools"
+    }
+  },
+  {
+    Freetools: {
+      to: "/freetools",
+      title4: "Free Tools"
+    }
+  },
+  {
+    Freetools: {
+      to: "/freetools",
+      title4: "Free Tools"
+    }
+  },
+  {
+    Freetools: {
+      to: "/freetools",
+      title4: "Free Tools"
+    }
+  },
+  {
+    Freetools: {
+      to: "/freetools",
+      title4: "Free Tools"
+    }
+  },
+  {
+    Freetools: {
+      to: "/freetools",
+      title4: "Free Tools"
+    }
+  },
+  {
+    Freetools: {
+      to: "/freetools",
+      title4: "Free Tools"
+    }
+  },
+  {
+    Freetools: {
+      to: "/freetools",
+      title4: "Free Tools"
+    }
+  },
+  {
+    Freetools: {
+      to: "/freetools",
+      title4: "Free Tools"
+    }
+  },
+  {
+    Freetools: {
+      to: "/freetools",
+      title4: "Free Tools"
+    }
+  }, 
+];

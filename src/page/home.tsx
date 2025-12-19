@@ -977,7 +977,7 @@ function Home() {
                       <img
                         loading="lazy"
                         className="h-10 fill-current text-purple-600"
-                        src="https://testimonial.to/static/media/logo.5ff3c18e.svg"
+                        src="/logo.svg"
                         alt="Logo"
                       />
                     </a>
