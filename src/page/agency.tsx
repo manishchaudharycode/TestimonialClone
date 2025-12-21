@@ -294,13 +294,101 @@ function Agency() {
                 <p className="text-gray-300">Cancel anytime</p>
               </li>
             </ul>
-            <div className="flex justify-center mb-8">
+            <div className="flex justify-center mb-2">
               <Button className="bg-indigo-600 p-5 uppercase text-white" variant="outline">try it now </Button>
-              <Link className="underline" to={'/pricing'}>See our pricing →</Link>
             </div>
+             <Link className="underline" to={'/pricing'}>See our pricing →</Link>
           </div>
         </div> 
       </div>
+      <div className="bg-neutral-900">
+          <div className="py-12 md:py-16">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6">
+              <div className="grid md:grid-cols-12 gap-8 lg:gap-20">
+                <div className="md:col-span-3 lg:col-span-4">
+                  <div className="mb-2">
+                    <a className="inline-block" href="/" aria-label="Cruip">
+                      <img
+                        loading="lazy"
+                        className="h-10 fill-current text-purple-600"
+                        src="/logo.svg"
+                        alt="Logo"
+                      />
+                    </a>
+                  </div>
+                  <div className="text-gray-400">
+                    The easiest solution to getting text and video testimonials
+                    from your customers
+                  </div>
+                </div>
+                <div className="md:col-span-6 lg:col-span-8 grid grid-cols-2 sm:grid-cols-4 gap-8">
+                  
+                  <div className="text-sm">
+                    <h6 className="text-gray-200 font-semibold uppercase mb-1">
+                      products
+                    </h6>
+                    <ul>
+                      <li className="mb-1">
+                        <a
+                          className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          href="/wall-of-love"
+                        >
+                          Our Wall of Love
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="text-sm">
+                    <h6 className="text-gray-200 font-semibold uppercase mb-1">
+                      resources
+                    </h6>
+                    <ul>
+                      <li className="mb-1">
+                        <a
+                          href="https://help.testimonial.to"
+                          target="_blank"
+                          className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                        >
+                          Help center
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="text-sm">
+                    <h6 className="text-gray-200 font-semibold uppercase mb-1">
+                      customers
+                    </h6>
+                    <ul>
+                      <li className="mb-1">
+                        <a
+                          className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          href="/agency"
+                        >
+                          Agencies
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="text-sm">
+                    <h6 className="text-gray-200 font-semibold uppercase mb-1">
+                      free tools
+                    </h6>
+                    <ul>
+                      <li className="mb-1">
+                        <a
+                          className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                          href="/tools/case-study-generator"
+                        >
+                          Case study generator
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   );
 }
