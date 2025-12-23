@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Navabar from "../components/navabar";
 import { Button } from "../components/ui/button";
+import { listOne, listTwo } from "../lib/constant";
 
 function Agency() {
   return (
@@ -297,7 +298,7 @@ function Agency() {
             <div className="flex justify-center mb-2">
               <Button className="bg-indigo-600 p-5 uppercase text-white" variant="outline">try it now </Button>
             </div>
-             <Link className="underline" to={'/pricing'}>See our pricing →</Link>
+             <Link className="underline text-gray-500" to={'/pricing'}>See our pricing →</Link>
           </div>
         </div> 
       </div>
@@ -321,21 +322,23 @@ function Agency() {
                     from your customers
                   </div>
                 </div>
-                <div className="md:col-span-6 lg:col-span-8 grid grid-cols-2 sm:grid-cols-4 gap-8">
-                  
+                <div className="md:col-span-6 lg:col-span-8 grid grid-cols-2 sm:grid-cols-4 gap-8"> 
                   <div className="text-sm">
                     <h6 className="text-gray-200 font-semibold uppercase mb-1">
                       products
                     </h6>
                     <ul>
-                      <li className="mb-1">
-                        <a
+                      {listOne.map((one, ind)=>(
+                        <li key={ind} className="mb-1">
+                        <Link
                           className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          href="/wall-of-love"
+                          to={one.to}
                         >
-                          Our Wall of Love
-                        </a>
+                          {one.title}
+                        </Link>
                       </li>
+                      ))}
+                      
                     </ul>
                   </div>
                   <div className="text-sm">
@@ -343,15 +346,18 @@ function Agency() {
                       resources
                     </h6>
                     <ul>
-                      <li className="mb-1">
-                        <a
-                          href="https://help.testimonial.to"
+                      {listTwo.map((two, ind)=>(
+                        <li key={ind} className="mb-1">
+                        <Link
+                        to={two.to}
                           target="_blank"
                           className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
                         >
-                          Help center
-                        </a>
+                          {two.title}
+                        </Link>
                       </li>
+                      ))}
+                      <Button className="text-gray-400 hover:text-gray-100   duration-150 ease-in-out cursor-pointer mb-1">Contact us</Button>
                     </ul>
                   </div>
                   <div className="text-sm">

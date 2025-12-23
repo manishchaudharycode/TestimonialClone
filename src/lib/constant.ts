@@ -350,16 +350,112 @@ export interface IListOne {
     to:string;
     title: string;
 }
+export const listOne : IListOne[] =[
+  {
+    to:"/Our Wall of Love",
+    title:"Our Wall of Love"
+  },
+  {
+    to:"/Embed widgets",
+    title:"Embed widgets"
+  },
+  {
+    to:"/Chrome/extension",
+    title:"Chrome extension"
+  },
+  {
+    to:"/Slack/app",
+    title:"Slack app"
+  },
+  {
+    to:"/Hopin app",
+    title:"Hopin app"
+  },
+  {
+    to:"/Pricing",
+    title:"Pricing"
+  },
+  {
+    to:"/Features",
+    title:"Features"
+  },
+  {
+    to:"/AI features",
+    title:"AI features"
+  },
+  {
+    to:"/Integrations",
+    title:"Integrations"
+  },
+  {
+    to:"https://www.youtube.com/watch?v=a-qT9pbOHkg",
+    title:"Product demo"
+  },
+  {
+    to:"/Status page",
+    title:"Status page"
+  }
+]
 export interface IListTwo {
     to:string;
     title: string;
 }
-export interface IListThere {
+export const listTwo : IListTwo [] = [
+  {
+    to:"https://help.testimonial.to/en/",
+    title:"Help center"
+  },
+  {
+    to:"https://testimonial.to/resources",
+    title:"Our blog"
+  },
+  {
+    to:"/Tutorials",
+    title:"Tutorials"
+  },
+  {
+    to:"https://testimonial.to/customer-stories",
+    title:"Customer stories"
+  },
+  {
+    to:"https://www.youtube.com/@testimonial",
+    title:"YouTube channel"
+  },
+  {
+    to:"/affiliates",
+    title:"Join affiliate program"
+  },
+  {
+    to:"/Privacy policy",
+    title:"Privacy policy"
+  },
+  {
+    to:"/tos",
+    title:"Terms of Service"
+  },
+  {
+    to:"/Cookies",
+    title:"Cookie policy"
+  }
+]
+export interface IListThree {
     to:string;
     title: string;
 }
+export const listThree : IListThree [] = [
+  {
+    to:"",
+    title:""
+  }
+]
 export interface IListFour {
     to:string;
     title: string;
 }
+export const listFour : IListFour [] = [
+  {
+    to:"",
+    title:""
+  }
+]
 
