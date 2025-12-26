@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Navabar from "../components/navabar";
 import { Button } from "../components/ui/button";
-import { listOne, listTwo } from "../lib/constant";
+import { listFour, listOne, listThree, listTwo } from "../lib/constant";
 
 function Agency() {
   return (
@@ -357,7 +357,7 @@ function Agency() {
                         </Link>
                       </li>
                       ))}
-                      <Button className="text-gray-400 hover:text-gray-100   duration-150 ease-in-out cursor-pointer mb-1">Contact us</Button>
+                      <Button className="text-gray-400 hover:text-gray-100   duration-150 ease-in-out cursor-pointer ">Contact us</Button>
                     </ul>
                   </div>
                   <div className="text-sm">
@@ -365,14 +365,17 @@ function Agency() {
                       customers
                     </h6>
                     <ul>
-                      <li className="mb-1">
-                        <a
+                      {listThree.map((three, ind)=>(
+                       <li key={ind} className="mb-1">
+                        <Link
                           className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          href="/agency"
+                          to={three.to}
                         >
-                          Agencies
-                        </a>
+                          {three.title}
+                        </Link>
                       </li>
+                      ))}
+                      
                     </ul>
                   </div>
                   <div className="text-sm">
@@ -380,14 +383,17 @@ function Agency() {
                       free tools
                     </h6>
                     <ul>
-                      <li className="mb-1">
-                        <a
+                      {listFour.map((four, ind) =>(
+                       <li key={ind} className="mb-1">
+                        <Link
                           className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          href="/tools/case-study-generator"
+                          to={four.to}
                         >
-                          Case study generator
-                        </a>
+                          {four.title}
+                        </Link>
                       </li>
+                      ))}
+                      
                     </ul>
                   </div>
                 </div>

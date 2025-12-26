@@ -15,7 +15,8 @@ import {
   TooltipTrigger,
 } from "../components/ui/tooltip";
 import { Check, Minus } from "lucide-react";
-import { plansData } from "../lib/constant";
+import { listFour, listOne, listThree, listTwo, plansData } from "../lib/constant";
+import { Link } from "react-router-dom";
 
 function Pricing() {
   const renderCheckmark = (included: boolean) => {
@@ -1143,203 +1144,33 @@ function Pricing() {
                         products
                       </h6>
                       <ul>
-                        <li className="mb-1">
-                          <a
+                        {listOne.map((one, ind)=>(
+                          <li key={ind} className="mb-1">
+                          <Link
                             className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/wall-of-love"
+                           to={one.to}
                           >
-                            Our Wall of Love
-                          </a>
+                            {one.title}
+                          </Link>
                         </li>
-                        <li className="mb-1">
-                          <a
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/widgets"
-                          >
-                            Embed widgets
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/apps/chrome-extension"
-                          >
-                            Chrome extension
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/apps/slack"
-                          >
-                            Slack app
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/apps/hopin"
-                          >
-                            Hopin app
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/pricing"
-                          >
-                            Pricing
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/features"
-                          >
-                            Features
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="/resources/testimonial-integrates-with-ai"
-                            target="_blank"
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          >
-                            AI features
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/integrations"
-                          >
-                            Integrations
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://www.youtube.com/watch?v=a-qT9pbOHkg"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
-                          >
-                            Product demo
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://status.testimonial.to"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
-                          >
-                            Status page
-                          </a>
-                        </li>
+                        ))} 
                       </ul>
                     </div>
                     <div className="text-sm">
                       <h6 className="text-gray-200 font-semibold uppercase mb-1">
                         resources
                       </h6>
-                      <ul>
-                        <li className="mb-1">
-                          <a
-                            href="https://help.testimonial.to"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
+                       <ul>
+                        {listTwo.map((two, ind)=>(
+                          <li key={ind} className="mb-1">
+                          <Link
+                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
+                           to={two.to}
                           >
-                            Help center
-                          </a>
+                            {two.title}
+                          </Link>
                         </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://help.testimonial.to"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
-                          >
-                            Our blog
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://help.testimonial.to"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
-                          >
-                            Tutorials
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://help.testimonial.to"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
-                          >
-                            Customer stories
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://help.testimonial.to"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
-                          >
-                            Youtube channel
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://help.testimonial.to"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
-                          >
-                            Join affiliate
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://help.testimonial.to"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
-                          >
-                            program
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://help.testimonial.to"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
-                          >
-                            Privacy policy
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://help.testimonial.to"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
-                          >
-                            Terms of Service
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://help.testimonial.to"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
-                          >
-                            Cookie policy
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://help.testimonial.to"
-                            target="_blank"
-                            className="text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out cursor-pointer"
-                          >
-                            Contact us
-                          </a>
-                        </li>
+                        ))} 
                       </ul>
                     </div>
                     <div className="text-sm">
@@ -1347,147 +1178,33 @@ function Pricing() {
                         customers
                       </h6>
                       <ul>
-                        <li className="mb-1">
-                          <a
+                        {listThree.map((three, ind)=>(
+                          <li key={ind} className="mb-1">
+                          <Link
                             className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/agency"
+                           to={three.to}
                           >
-                            Agencies
-                          </a>
+                            {three.title}
+                          </Link>
                         </li>
-                        <li className="mb-1">
-                          <a
-                            href="/customers#b2b-companies"
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          >
-                            B2B companies
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="/customers/course-creator"
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          >
-                            Course creators
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="/customers#ecommerce-retail"
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          >
-                            ecommerce
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="/customers#consumer-apps"
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          >
-                            Consumer apps
-                          </a>
-                        </li>
+                        ))} 
                       </ul>
                     </div>
                     <div className="text-sm">
                       <h6 className="text-gray-200 font-semibold uppercase mb-1">
                         free tools
                       </h6>
-                      <ul>
-                        <li className="mb-1">
-                          <a
+                       <ul>
+                        {listFour.map((four, ind)=>(
+                          <li key={ind} className="mb-1">
+                          <Link
                             className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/tools/case-study-generator"
+                           to={four.to}
                           >
-                            Case study generator
-                          </a>
+                            {four.title}
+                          </Link>
                         </li>
-                        <li className="mb-1">
-                          <a
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/tools/testimonial-questions-generator"
-                          >
-                            Testimonial questions generator
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/tools/google"
-                          >
-                            Google Business reviews
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/tools/yelp"
-                          >
-                            Yelp reviews
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://testimonial.new"
-                            target="_blank"
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          >
-                            Testimonial.new
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://reviewtoimage.com"
-                            target="_blank"
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          >
-                            ReviewToImage.com
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://seeyafuture.me/"
-                            target="_blank"
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          >
-                            SeeyaFuture.me
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="http://streetinterview.ai/"
-                            target="_blank"
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          >
-                            Street Interview AI
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://typo.domains/"
-                            target="_blank"
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          >
-                            Typo.domains
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            href="https://ismydriverlicensearealid.com"
-                            target="_blank"
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                          >
-                            Real ID checker
-                          </a>
-                        </li>
-                        <li className="mb-1">
-                          <a
-                            className=" text-gray-400 hover:text-gray-100  transition duration-150 ease-in-out"
-                            href="/tools"
-                          >
-                            Other free tools
-                          </a>
-                        </li>
+                        ))} 
                       </ul>
                     </div>
                   </div>

@@ -444,9 +444,25 @@ export interface IListThree {
 }
 export const listThree : IListThree [] = [
   {
-    to:"",
-    title:""
-  }
+    to:"/agency",
+    title:"Agencies"
+  },
+   {
+    to:"https://testimonial.to/customers#b2b-companies",
+    title:"B2B companies"
+  },
+   {
+    to:"https://testimonial.to/customers/course-creator",
+    title:"Course creators"
+  },
+   {
+    to:"https://testimonial.to/customers#ecommerce-retail",
+    title:"eCommerce"
+  },
+   {
+    to:"https://testimonial.to/customers#consumer-apps",
+    title:"Consumer apps"
+  },
 ]
 export interface IListFour {
     to:string;
@@ -454,8 +470,49 @@ export interface IListFour {
 }
 export const listFour : IListFour [] = [
   {
-    to:"",
-    title:""
-  }
+    to:"https://testimonial.to/tools/case-study-generator",
+    title:"Case study generator"
+  },
+  {
+    to:"https://testimonial.to/features",
+    title:"Testimonial questions generator"
+  },
+  {
+    to:"https://testimonial.to/tools/google",
+    title:"Google Business reviews"
+  },
+  {
+    to:"https://testimonial.to/tools/yelp",
+    title:"Yelp reviews"
+  },
+  {
+    to:"https://testimonial.new",
+    title:"Testimonial.new"
+  },
+  {
+    to:"https://reviewtoimage.com/",
+    title:"ReviewToImage.com"
+  },
+  {
+    to:"https://seeyafuture.me",
+    title:"SeeyaFuture.me"
+  },
+  {
+    to:"https://streetinterview.ai/",
+    title:"Street Interview AI"
+  },
+  {
+    to:"https://typo.domains/",
+    title:"Typo.domains"
+  },
+  {
+    to:"https://pdfparser.com/",
+    title:"PDF Parser"
+  },
+  {
+    to:"https://testimonial.to/tools",
+    title:"Other free tools"
+  },
+  
 ]
 
