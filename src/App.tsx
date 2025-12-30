@@ -10,6 +10,8 @@ import WallOfLove from './page/wall-of-love';
 import Features from './page/features';
 import Integration from './page/integrations';
 import Agency from './page/agency';
+import EcommerceRetail from './page/customers-ecommerce-retail';
+
 function App() {
 
 
@@ -17,6 +19,7 @@ function App() {
  <div>
   <Routes>
     <Route path="/" element={<Home/>} />
+    <Route path='/customers-ecommerce-retail' element={<EcommerceRetail/>} />
     <Route path='/agency' element={<Agency/>}/>
     <Route path='/integrations' element={<Integration/>} />
     <Route path='/features' element={<Features/>}/>

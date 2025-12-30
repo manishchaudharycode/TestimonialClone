@@ -69,7 +69,7 @@ function Navabar() {
                 </div>
                 <div className="my-auto">
                   <Link
-                    to="/customers#ecommerce-retail"
+                    to="/customers-ecommerce-retail"
                     className="text-gray-100  font-bold"
                   >
                     eCommerce &amp; Retails
@@ -97,7 +97,7 @@ function Navabar() {
                 </div>
                 <div className="my-auto">
                   <Link
-                    to="/customers/course-creator"
+                    to="/customers#course-creator"
                     className=" text-gray-100 font-bold"
                   >
                     Course Creators<span className="absolute inset-0"></span>
